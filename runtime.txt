@@ -1,5 +1,1 @@
-streamlit==1.24.1
-Pillow<10
-tensorflow==2.12.0
-numpy
-python==3.10.12
+python-3.10.16
