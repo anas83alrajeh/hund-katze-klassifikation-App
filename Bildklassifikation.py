@@ -53,3 +53,6 @@ if hochgeladene_datei is not None:
         st.success(f" Das ist eine Katze ({vorhersage_label}), Vertrauen: {vertrauen:.2f}%")
     else:
         st.error(f" Das ist weder eine Katze noch ein Hund (erkannt als: {vorhersage_label}, Vertrauen: {vertrauen:.2f}%)")
+# Hinweis und Kontaktinformationen
+st.markdown("---")
+st.markdown("Erstellt von: Anas Al Rajeh  \n Kontakt: [anasalrajeh9@gmail.com](mailto:anasalrajeh9@gmail.com)")
